@@ -1,0 +1,279 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.2;
+  background-color: #fef9f0;
+}
+
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+  
+}
+
+.navegacion{
+  border-top: 10px solid #ff3281;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contenedor1{
+  text-align: center;
+}
+
+.logo{
+  width: 50%;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.redes_s{
+  width: 48%;
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.redes_s a{
+  margin: 15px;
+}
+
+.contenedor2{
+  border: 3px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.enlace{
+  width: 24%;
+  display: inline-block;
+}
+
+.enlace a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+}
+
+.banner{
+  background-image: url(../img/fondopiedras.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 528px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto{
+  color: white;
+  vertical-align: middle;
+}
+
+.texto h2{
+  font-size: 34px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.texto p{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.texto a{
+  text-decoration: none;
+  color: white;
+}
+
+.botones{
+  margin-top: 65px;
+}
+
+.btn_1{
+  padding: 20px;
+  background-color: #ff3281;
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.btn_2{
+  padding: 20px 30px;
+  border: 3px solid #ff3281;
+}
+
+.entrada1{
+  background-color: white;
+  padding: 40px;
+}
+
+.entrada1_texto{
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1.5;
+}
+
+.entrada1_texto h2{
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.entrada1_texto p{
+  font-size: 20px;
+}
+
+.entrada1_img{
+  width: 48%;
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+}
+
+.entrada2{
+  text-align: center;
+  padding: 30px;
+}
+
+.titulo{
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+
+.entrada2_img{
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.entrada2_img img{
+  width: 550px;
+  border-radius: 15px;
+}
+
+.entrada2_texto{
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+
+.entrada3{
+  text-align: center;
+  padding: 30px;
+  background-color: white;
+}
+
+.entrada3_formulario{
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.entrada3_formulario h2{
+  font-size: 34px;
+}
+
+.entrada3_formulario p{
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.resaltado{
+  text-transform: uppercase;
+  color: #ff3281;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.entrada3_formulario form{
+  width: 86%;
+  border: 3px solid #ff3281;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.entrada3_formulario label{
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.entrada3_formulario input{
+  width: 100%;
+  border: 1px solid #646464;
+  border-radius: 5px;
+  padding: 13px 8px;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.entrada3_formulario button{
+  padding: 10px 60px ;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  border: 0;
+}
+
+.entrada3_formulario button:hover{
+  cursor: pointer;
+}
+
+.entrada3_video{
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.entrada3_video h2{
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+
+.entrada3_video iframe{
+  width: 100%;
+  border-radius: 6px;
+}
+
+.footer{
+  text-align: center;
+  padding: 30px;
+  border-bottom: 10px solid #ff3281;
+}
+
+.footer_img{
+  width: 49%;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer_info{
+  width: 49%;
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer_info p{
+  font-size: 20px;
+  color: #ff3281;
+  font-weight: bold;
+}
